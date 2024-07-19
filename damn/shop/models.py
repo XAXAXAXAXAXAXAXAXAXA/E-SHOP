@@ -5,7 +5,7 @@ class Product(models.Model):
     name = models.CharField(max_length=128)
     description = models.TextField()
     price = models.IntegerField()
-    image_url = models.CharField(max_length=1024)
+    image_url = models.CharField(max_length=1023)
 
     speed = models.IntegerField(null=True, blank=True)
     ram = models.IntegerField(null=True, blank=True)
